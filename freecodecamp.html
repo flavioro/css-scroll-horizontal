@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <title>How to implement horizontal scrolling using Flexbox</title> 
+  
+    <meta charset="utf-8"> 
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1"> 
+    
+    <style> 
+        body {   display: flex;   align-items: center;   height: 100vh;}
+        .container {    display: flex;    overflow-x: auto;}
+        .container img {    margin-right: 15px;}
+        .container::-webkit-scrollbar {    display: none;}
+    </style> 
+</head> 
+  
+<body>
+
+    <div class="container">    
+        <img src="/projetos-slides/casa_bangkok_archshop.jpg" />
+        <img src="/projetos-slides/casa_africa_archshop.jpg" />
+        <img src="/projetos-slides/casa_madrid_archshop.jpg" />
+        <img src="/projetos-slides/casa_memphis_archshop.jpg" />
+        <img src="/projetos-slides/casa_semnome_archshop.jpg" />
+        <img src="/projetos-slides/casa_quebec_archshop.jpg" />
+    </div>
+
+
+</body>
+    
